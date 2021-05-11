@@ -16,4 +16,4 @@ deploy:
   on:
     branch: master
     tags: true
-    repo: hitgeek/simple-hl7
+    repo: imaware/simple-hl7
