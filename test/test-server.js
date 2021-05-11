@@ -13,7 +13,7 @@ var CR = String.fromCharCode(0x0d);
 describe('FileServer', function() {
   var fileServer;
   describe('.start()', function() {
-    this.timeout(10000);
+    this.timeout(20000);
     it('should start the file server listening on a folder, and emit event on new file', function(done) {
 
       var hl7TestMessage = fs.readFileSync('test/samples/adt.hl7').toString().replace(/\r?\n/g, "\r");
