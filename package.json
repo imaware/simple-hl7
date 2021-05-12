@@ -1,5 +1,5 @@
 {
-  "name": "simple-hl7",
+  "name": "@imaware/simple-hl7",
   "version": "3.2.2",
   "description": "simple library for creating and parsing hl7 messages",
   "main": "lib/index.js",
@@ -14,7 +14,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/imaware/simple-hl7.git"
+    "url": "git@github.com:imaware/simple-hl7.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [
     "hl7"
